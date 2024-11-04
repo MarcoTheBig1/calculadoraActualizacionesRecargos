@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Actualizaciones y Recargos 2024</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Calculadora de Actualizaciones y Recargos 2024</h1>
+    <p>Esta calculadora de actualizaciones y recargos sirve para calcular el importe de Actualización y de Recargo que se emite cuando el contribuyente se retrasa en el pago de impuestos federales. También genera el importe final a pagar teniendo en cuenta estos nuevos cargos.</p>
+     <p>Pa que mi novia no batalle con su tarea ❤️</p>
+    <!-- Formulario -->
+    <div class="input-group">
+        <label for="importePagar">Importe a Pagar:</label>
+        <input type="number" id="importePagar" placeholder="Ingrese el importe a pagar" required>
+    </div>
+
+    <div class="input-group">
+        <label for="fechaOriginal">Fecha en que se debió pagar:</label>
+        <input type="date" id="fechaOriginal" required>
+    </div>
+
+    <div class="input-group">
+        <label for="fechaPago">Fecha en que se pagó:</label>
+        <input type="date" id="fechaPago" required>
+    </div>
+
+
+
+    <button onclick="calcular()">Calcular</button>
+
+    <!-- Resultados -->
+    <div id="resultados" class="result"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
